@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a,b,c,d,e;
+    cout<<"a=";
+    cin>>a;
+    cout<<"b=";
+    cin>>b;
+    cout<<"c=";
+    cin>>c;
+    cout<<"d=";
+    cin>>d;
+    cout<<"e=";
+    cin>>e;
+    float p;
+    p=((a+b+c+d+e)/500.0)*100;
+    cout<<p;
+}
